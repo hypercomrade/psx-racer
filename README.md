@@ -1,2 +1,2 @@
 # psx-racer
-Old school car racing game
+soviet bloc mario cart
