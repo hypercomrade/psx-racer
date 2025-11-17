@@ -1,17 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://b5oba7am038t"]
 
-[sub_resource type="SphereMesh" id="SphereMesh_ct41q"]
-lightmap_size_hint = Vector2i(9, 5)
-add_uv2 = true
-radius = 0.25
-height = 0.5
+[ext_resource type="ArrayMesh" uid="uid://ben5a1u3oqk4i" path="res://models/Car 02/Car2.obj" id="1_ukbfy"]
 
 [node name="pc" type="Node3D"]
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15081918, 1.4180744)
+transform = Transform3D(-0.99987316, 0.012054846, 0.010410617, 0.015360132, 0.90272576, 0.42994225, -0.0042150444, 0.43004763, -0.9027964, 0.016781926, 4.311693, -5.8163424)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 layers = 1023
 gi_mode = 2
-mesh = SubResource("SphereMesh_ct41q")
+mesh = ExtResource("1_ukbfy")

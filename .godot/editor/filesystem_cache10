@@ -1,6 +1,89 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763354037
+::res://::1763355328
 icon.svg::CompressedTexture2D::1790880795757653::1763354016::1763354037::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+pc.tscn::PackedScene::132972049403254509::1763355160::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1763354016::0::1::::<><><>0<>0<><>::
-node_3d.tscn::PackedScene::855609227061733535::1763354056::0::1::::<><><>0<>0<><>::
 SOURCES.txt::TextFile::-1::1763354016::0::1::::<><><>0<>0<><>::
+world.tscn::PackedScene::855609227061733535::1763355111::0::1::::<><><>0<>0<><>::uid://b5oba7am038t::::res://pc.tscn
+::res://models/::1763355305
+::res://models/Car 01/::1763355300
+Car.obj::Mesh::8852160320701413284::1642661892::1763355329::1::::<><><>0<>0<>528c8e38e23ef6c251c104c252802079<>res://.godot/imported/Car.obj-1cf5327ce1e0f9c5d22f7a8e7cb1213d.mesh<*>res://.godot/imported/Car.obj-1cf5327ce1e0f9c5d22f7a8e7cb1213d.mesh::uid://bco8r0x7vhcay::::res://models/Car 01/car.png
+car.png::CompressedTexture2D::2557735028880208488::1662957618::1763355330::1::::<><><>0<>0<>949d279b4d995575b54e4d2b98f4220c<>res://.godot/imported/car.png-187b828a91fd18486a3a6802283bdcbe.s3tc.ctex::
+car_blue.png::CompressedTexture2D::5471133009402173969::1662957484::1763355329::1::::<><><>0<>0<>cc83d39ee7c6928718128bdc94330cd1<>res://.godot/imported/car_blue.png-508bb71e68963929c4d3807655851330.ctex::
+car_gray.png::CompressedTexture2D::8974982979570677595::1662957490::1763355329::1::::<><><>0<>0<>1999d82c009264aa882b6e0faf9c45f3<>res://.godot/imported/car_gray.png-2b17e989097ea0e0dda9e03070d8d4f8.ctex::
+car_red.png::CompressedTexture2D::1508227827008195480::1662957496::1763355329::1::::<><><>0<>0<>f473cf7aed570f2efbdcc01b3b92604e<>res://.godot/imported/car_red.png-c6f495ea9ca57475dd196ff49efcb471.ctex::
+car_snow.png::CompressedTexture2D::6514792427198129255::1662957786::1763355329::1::::<><><>0<>0<>684d1a2342628523332a84cd9fb60d4b<>res://.godot/imported/car_snow.png-60a1bcbb2aa19fb68b70ca08f68b2f43.ctex::
+car_snowcovered.png::CompressedTexture2D::187708788140651100::1657088580::1763355329::1::::<><><>0<>0<>a6473483a8244bd6d870659dcf5aa0bb<>res://.godot/imported/car_snowcovered.png-55944df616123d884eb30bde38b188b7.ctex::
+car_snowcovered_blue.png::CompressedTexture2D::2366715345593370721::1657088628::1763355329::1::::<><><>0<>0<>7a5c36adf56e4c7d6ec7df94a04d1ec1<>res://.godot/imported/car_snowcovered_blue.png-cd98f3d1361a40d08b302d8841ca5c03.ctex::
+car_snowcovered_gray.png::CompressedTexture2D::2913466204658922138::1657088644::1763355329::1::::<><><>0<>0<>712b9608cd34a4f3619bde08e07e0546<>res://.godot/imported/car_snowcovered_gray.png-c7a8e7bbec569b45b729f488df07ea6a.ctex::
+car_snowcovered_red.png::CompressedTexture2D::4204713792384009414::1657088662::1763355329::1::::<><><>0<>0<>9a4908e560d5a7fa28abcefa77ae8924<>res://.godot/imported/car_snowcovered_red.png-9bf254ccc67c16c2eb44357e99364979.ctex::
+car_snow_blue.png::CompressedTexture2D::2138542007838427874::1662957798::1763355329::1::::<><><>0<>0<>7def0f946ec654f21eb39904fb371fb5<>res://.godot/imported/car_snow_blue.png-e05dbd58083cee9674adad16e04b5725.ctex::
+car_snow_gray.png::CompressedTexture2D::8809563849092757189::1662957816::1763355329::1::::<><><>0<>0<>20143a810425937c4e22571b0033c2f0<>res://.godot/imported/car_snow_gray.png-95a15ef759c4c0296f137e974ceef8d7.ctex::
+car_snow_red.png::CompressedTexture2D::2273196804239993307::1662957832::1763355329::1::::<><><>0<>0<>bca6e84afde7bc4b65da9695346b31a6<>res://.godot/imported/car_snow_red.png-185d33c1b86c7a490a362ccaec2b1248.ctex::
+::res://models/Car 02/::1763355300
+Car2.obj::Mesh::2695835876625735658::1640907394::1763355329::1::::<><><>0<>0<>dd9640d390687ea479bb1e1fa1c53b8f<>res://.godot/imported/Car2.obj-e28192aa34e7df1b28ddf4fdf0a2da09.mesh<*>res://.godot/imported/Car2.obj-e28192aa34e7df1b28ddf4fdf0a2da09.mesh::uid://bbhfvy6bwmj0l::::res://models/Car 02/car2.png
+car2.png::CompressedTexture2D::2471402566770045089::1662958186::1763355331::1::::<><><>0<>0<>3f93a252ced6bd3861fa742b76de0541<>res://.godot/imported/car2.png-9abd2dc21dce5e17d9877aeaef761555.s3tc.ctex::
+car2_black.png::CompressedTexture2D::8106726802022619112::1662958190::1763355329::1::::<><><>0<>0<>a083ae4d397e08b2dca56fedc8c1747e<>res://.godot/imported/car2_black.png-082a1541e45d19cb97499543e0e139ca.ctex::
+car2_red.png::CompressedTexture2D::892543046941989287::1662958198::1763355329::1::::<><><>0<>0<>275e91b0a8b907ea7850fac83ee79d4c<>res://.godot/imported/car2_red.png-d4147ee0455b10b7f01d6dedcb1a008f.ctex::
+::res://models/Car 03/::1763355300
+Car3.obj::Mesh::4100519951270171668::1641859870::1763355329::1::::<><><>0<>0<>7aad3143287f5f1bfdcc94bbc159e668<>res://.godot/imported/Car3.obj-60df4f1aecec2f4fc7235c2d4b1a10ff.mesh<*>res://.godot/imported/Car3.obj-60df4f1aecec2f4fc7235c2d4b1a10ff.mesh::
+car3.png::CompressedTexture2D::7827345684172156947::1662958378::1763355329::1::::<><><>0<>0<>b973da347c88b7b0dfa37704d4a48f1e<>res://.godot/imported/car3.png-52d84df56a4b78fdbf2c830d64a07913.ctex::
+car3_red.png::CompressedTexture2D::6873496174477508170::1662958404::1763355329::1::::<><><>0<>0<>eec6a8d0c32ac825f1ff68c301c9feb1<>res://.godot/imported/car3_red.png-1c9e7274a1a6ea3e7532e6ad622770f3.ctex::
+car3_yellow.png::CompressedTexture2D::1456079771289676434::1662958410::1763355329::1::::<><><>0<>0<>7d80e4ad272b404b7f5d8dc21fbe7c31<>res://.godot/imported/car3_yellow.png-18a41b5ceb1c5983035f33ccbd751920.ctex::
+::res://models/Car 04/::1763355300
+Car4.obj::Mesh::7149337940995568864::1630254192::1763355329::1::::<><><>0<>0<>732e4485ac4176eddf5e4b712dc4ee4d<>res://.godot/imported/Car4.obj-a36748757b5fed7aea42940af075e8ba.mesh<*>res://.godot/imported/Car4.obj-a36748757b5fed7aea42940af075e8ba.mesh::uid://bhvyrkynrp8pg::::res://models/Car 04/car4.png
+car4.png::CompressedTexture2D::2922582651240175280::1662958806::1763355331::1::::<><><>0<>0<>cd2327ab83c6108f3182c4c4e450c7f5<>res://.godot/imported/car4.png-120d12339552eee3ba3af76392f78e72.s3tc.ctex::
+car4_grey.png::CompressedTexture2D::509067834919325181::1662958822::1763355329::1::::<><><>0<>0<>2c224956e04091d5582b07c29952f336<>res://.godot/imported/car4_grey.png-2474cefa2e1f9d33082ce47da9e0851c.ctex::
+car4_lightgrey.png::CompressedTexture2D::6751207942396175746::1662958838::1763355329::1::::<><><>0<>0<>c44dc0ea3daeb5a3fc9910b0cee2e6c9<>res://.godot/imported/car4_lightgrey.png-40528502592b99c3cf6d8f086e4f60e8.ctex::
+car4_lightorange.png::CompressedTexture2D::6619434949851839669::1662958854::1763355329::1::::<><><>0<>0<>be7461a57e78e9d2d57ece83b0e6859d<>res://.godot/imported/car4_lightorange.png-42818519402d6b0aa91c0cd181dc8456.ctex::
+::res://models/Car 05/::1763355300
+Car5.obj::Mesh::4408672258627824294::1638775850::1763355329::1::::<><><>0<>0<>2ba5188487f911c844bc5cf4c5847f66<>res://.godot/imported/Car5.obj-fe7da9f3a6e4b7bcf568b7b4ae96aee3.mesh<*>res://.godot/imported/Car5.obj-fe7da9f3a6e4b7bcf568b7b4ae96aee3.mesh::uid://y0y0it7h33lj::::res://models/Car 05/car5.png
+car5.png::CompressedTexture2D::1737643994840795391::1662959612::1763355331::1::::<><><>0<>0<>7dd6b09554000f2cafcaced5c36f4a7e<>res://.godot/imported/car5.png-a847c6b1c8de98dd8f91b0929aef9e41.s3tc.ctex::
+car5_green.png::CompressedTexture2D::1951263617531392967::1662959618::1763355329::1::::<><><>0<>0<>6dde7eff99188c7bd301ad60542e2f6b<>res://.godot/imported/car5_green.png-f4667513483a360690a375f1d77e3168.ctex::
+car5_grey.png::CompressedTexture2D::5927553487475094935::1662959624::1763355329::1::::<><><>0<>0<>188c36381f47802fa570171fdebf5185<>res://.godot/imported/car5_grey.png-e63d44dd637916dcd3ce859039b8364e.ctex::
+Car5_Police.obj::Mesh::2958297570526094286::1638775902::1763355329::1::::<><><>0<>0<>423f71221aa44b7fff85f81be50951b2<>res://.godot/imported/Car5_Police.obj-1dd76dce91624c32a0e95fb7e8cba63a.mesh<*>res://.godot/imported/Car5_Police.obj-1dd76dce91624c32a0e95fb7e8cba63a.mesh::uid://d2cby5v8r55ah::::res://models/Car 05/car5_police.png
+car5_police.png::CompressedTexture2D::9058594770525478623::1662959666::1763355332::1::::<><><>0<>0<>fefc4a5b4ba62ba1b5003b13aade222e<>res://.godot/imported/car5_police.png-91d465a1f139589e9c040dfb96398e4d.s3tc.ctex::
+car5_police_la.png::CompressedTexture2D::4180983414803333565::1662959674::1763355329::1::::<><><>0<>0<>b3514eac00c5c55c734cc61bd799c468<>res://.godot/imported/car5_police_la.png-628b27cf486ef8ba18cb92380670c810.ctex::
+Car5_Taxi.obj::Mesh::6308542845443206181::1638775914::1763355329::1::::<><><>0<>0<>346d7f6578f0178fb19257f42b7c7ac8<>res://.godot/imported/Car5_Taxi.obj-ad9006f693dc9cabf0ca0a6d8174d5a9.mesh<*>res://.godot/imported/Car5_Taxi.obj-ad9006f693dc9cabf0ca0a6d8174d5a9.mesh::uid://b0y03xupe65uk::::res://models/Car 05/car5_taxi.png
+car5_taxi.png::CompressedTexture2D::4192256007411116098::1662959660::1763355332::1::::<><><>0<>0<>c3f1af14d8822a7bf26d3ee001b74e44<>res://.godot/imported/car5_taxi.png-c47b72805efaf65acf683d7f20d69b65.s3tc.ctex::
+::res://models/Car 06/::1763355300
+Car6.obj::Mesh::3909947861855039064::1638742630::1763355329::1::::<><><>0<>0<>faf311b64ad404608c7196f7208f8dc6<>res://.godot/imported/Car6.obj-7f70cf056c1dc8ba995890af42bcd407.mesh<*>res://.godot/imported/Car6.obj-7f70cf056c1dc8ba995890af42bcd407.mesh::uid://i4pm12dp7dhv::::res://models/Car 06/car6.png
+car6.png::CompressedTexture2D::622311295864784031::1638749886::1763355332::1::::<><><>0<>0<>683b50ae5b54780a2fa75521cbf97450<>res://.godot/imported/car6.png-ad2e2b17d75b1ac5c42a7e23364ad343.s3tc.ctex::
+::res://models/Car 07/::1763355300
+Car7.obj::Mesh::776947178603496838::1642733842::1763355329::1::::<><><>0<>0<>86b7c0f6223ed5cfa5ea9fba37dcb427<>res://.godot/imported/Car7.obj-edd28972c15ea1a84255497333a6b163.mesh<*>res://.godot/imported/Car7.obj-edd28972c15ea1a84255497333a6b163.mesh::uid://coldkd3pkkpkq::::res://models/Car 07/car7.png
+car7.png::CompressedTexture2D::5778393544050540912::1662959906::1763355332::1::::<><><>0<>0<>ee4308070f32a8b76a89237e86173b7a<>res://.godot/imported/car7.png-3bbe3dc786622e8a516b811bb0dc728c.s3tc.ctex::
+car7_black.png::CompressedTexture2D::3954651832367239157::1662959958::1763355329::1::::<><><>0<>0<>b0453e11555e14f4c82464598a804fd1<>res://.godot/imported/car7_black.png-3a36fb544c534b341b784784e33c56da.ctex::
+car7_brown.png::CompressedTexture2D::7244930258459130148::1662959928::1763355329::1::::<><><>0<>0<>265de24c73e0e044c272b7902e40131e<>res://.godot/imported/car7_brown.png-4bcda6cfa549742c32e2d051cdf648f9.ctex::
+car7_green.png::CompressedTexture2D::6387865477203661994::1662959936::1763355329::1::::<><><>0<>0<>fcb8d5532b4cb0f967e7fcfd6f0ca6f6<>res://.godot/imported/car7_green.png-cd98a34e7d8221eb96a538920eb6346d.ctex::
+car7_grey.png::CompressedTexture2D::5119367699403601107::1662959950::1763355329::1::::<><><>0<>0<>efaa62fb6bdc94575cd3392c8800c2d2<>res://.godot/imported/car7_grey.png-e9f81a49865e273bdf5a3e365063c975.ctex::
+car7_red.png::CompressedTexture2D::7809987662157982612::1662959942::1763355329::1::::<><><>0<>0<>17dfd138e358bfb9deff59bd6126a5b6<>res://.godot/imported/car7_red.png-95e72f1c8421c183c402b00594762591.ctex::
+::res://models/Car 08/::1763355299
+Car8.obj::Mesh::7073678481468161467::1692948876::1763355329::1::::<><><>0<>0<>ce6f0903de33053f48d34e613087d0cd<>res://.godot/imported/Car8.obj-54046e564088b22f1b51718a714f7a1f.mesh<*>res://.godot/imported/Car8.obj-54046e564088b22f1b51718a714f7a1f.mesh::uid://bykm04nrd1gex::::res://models/Car 08/Car8.png
+Car8.png::CompressedTexture2D::4092371501344347799::1692949414::1763355332::1::::<><><>0<>0<>699b2d7ade4edb44c8ec33240d68cac9<>res://.godot/imported/Car8.png-b6781b3a2b4d61eb3847eb604e29a65a.s3tc.ctex::
+Car8_grey.png::CompressedTexture2D::737786965925232381::1692949474::1763355329::1::::<><><>0<>0<>864bec0427183a73fa5a0e24b2bf363f<>res://.godot/imported/Car8_grey.png-2c26a154e26f187cd17207ff20d2caa5.ctex::
+Car8_mail.png::CompressedTexture2D::2851895678331738189::1692953468::1763355329::1::::<><><>0<>0<>879897a51737f4d455b52454de11cfa7<>res://.godot/imported/Car8_mail.png-7a60413e8153dd256b0ad28bb00edbe0.ctex::
+Car8_purple.png::CompressedTexture2D::4044212763930715832::1692949544::1763355329::1::::<><><>0<>0<>525816884d08b9817399c1341a071f4a<>res://.godot/imported/Car8_purple.png-dc7ec0bf7356709649bc283ffa2eb6cf.ctex::
+::res://models/Shadow (3D)/::1763355299
+Car_Shadow.obj::Mesh::7841293215076043346::1627317010::1763355329::1::::<><><>0<>0<>b525ee41683ceb5c9eb797addef0ed70<>res://.godot/imported/Car_Shadow.obj-20b514641fa531e6a920628c51291c8c.mesh<*>res://.godot/imported/Car_Shadow.obj-20b514641fa531e6a920628c51291c8c.mesh::uid://br5p64ssu5abk::::res://models/Shadow (3D)/car_shadow.png
+car_shadow.png::CompressedTexture2D::3642530024493370780::1627316392::1763355333::1::::<><><>0<>0<>4e85f00807fc0782d025d66e446f134b<>res://.godot/imported/car_shadow.png-f0529fd494c5c1ec06d9041aeacb849f.s3tc.ctex::
+car_shadow_alpha.png::CompressedTexture2D::1768044776612107253::1627316424::1763355329::1::::<><><>0<>0<>8776e9b1193fe1e4abc0ddcd1ba7ff11<>res://.godot/imported/car_shadow_alpha.png-25eeb538503dfed98af2ffc94d78499f.ctex::
+::res://models/Sound effects/::1763355299
+Car2_Engine_Loop.ogg::AudioStreamOggVorbis::2514483838236650119::1692945286::1763355329::1::::<><><>0<>0<>17d7c7ff817a68818eab7241239b3fdb<>res://.godot/imported/Car2_Engine_Loop.ogg-a88c756436f2b39e6443281de04766a4.oggvorbisstr::
+Car2_Engine_Start_Up.ogg::AudioStreamOggVorbis::248904046658350801::1692945152::1763355329::1::::<><><>0<>0<>5a6c22ffe012c394e7d90d4105f6c567<>res://.godot/imported/Car2_Engine_Start_Up.ogg-f068393314d55bba6b53e9eeaf9ca40d.oggvorbisstr::
+Car2_Engine_Turning_Off.ogg::AudioStreamOggVorbis::1495391966932601864::1692945408::1763355329::1::::<><><>0<>0<>f4040b447a060c2c28dc4491c3caf43e<>res://.godot/imported/Car2_Engine_Turning_Off.ogg-33b582c396ce194a76c9a7e2b60e95fe.oggvorbisstr::
+Car_Acceleration.ogg::AudioStreamOggVorbis::589186397886933453::1616237172::1763355329::1::::<><><>0<>0<>b61b10e03fd7fc6b589f6b052f994037<>res://.godot/imported/Car_Acceleration.ogg-49fc1db3c877903d9a222d734f0d4967.oggvorbisstr::
+Car_Acceleration_2.ogg::AudioStreamOggVorbis::1163439271850214303::1640909688::1763355329::1::::<><><>0<>0<>077a4a32beb04242a90dc9ca3b978b84<>res://.godot/imported/Car_Acceleration_2.ogg-fe8d7a71cb2699b4c88394d4217d2747.oggvorbisstr::
+Car_Door_Close.ogg::AudioStreamOggVorbis::8693245719126859154::1627102590::1763355329::1::::<><><>0<>0<>8e8821b9ec535966307b1e36b0e0038a<>res://.godot/imported/Car_Door_Close.ogg-417fa5ae41a25da3a17916e498c7bedd.oggvorbisstr::
+Car_Door_Open.ogg::AudioStreamOggVorbis::294300067724642664::1642550900::1763355329::1::::<><><>0<>0<>8f6003ebc9c6c7ed40f5fd9974ac96c2<>res://.godot/imported/Car_Door_Open.ogg-c5e5ef703bf7f2e9d72d46a4b8cbaa97.oggvorbisstr::
+Car_Engine_Loop.ogg::AudioStreamOggVorbis::6371146272090311848::1616237236::1763355329::1::::<><><>0<>0<>7df4f764999bc095ed326546780d7405<>res://.godot/imported/Car_Engine_Loop.ogg-56bdf7f8e7ed8f393accde0e333ff9d6.oggvorbisstr::
+Car_Engine_Loop_2.ogg::AudioStreamOggVorbis::6177199029744457875::1640911260::1763355329::1::::<><><>0<>0<>9f5140a9d595568638d668a3cfda6347<>res://.godot/imported/Car_Engine_Loop_2.ogg-e1fbd83d7c46a63aebc686b394cfea01.oggvorbisstr::
+Car_Engine_Start_Up.ogg::AudioStreamOggVorbis::4289945852655432343::1616237264::1763355329::1::::<><><>0<>0<>17ee02d6f912b898a1417e455ee7d123<>res://.godot/imported/Car_Engine_Start_Up.ogg-44e1079a5782777ea7603562cc17d528.oggvorbisstr::
+Car_Engine_Turning_Off.ogg::AudioStreamOggVorbis::2664075136181144682::1616237288::1763355329::1::::<><><>0<>0<>74b96fb6e93ae74919f92e3bbeb06a7d<>res://.godot/imported/Car_Engine_Turning_Off.ogg-7e3b5cedc0ba4e4e84f241f5c2f16b2b.oggvorbisstr::
+Car_Hood_Close.ogg::AudioStreamOggVorbis::1221681213731301706::1616237314::1763355329::1::::<><><>0<>0<>6755f67f86ffa54e25ed09599f47290a<>res://.godot/imported/Car_Hood_Close.ogg-d2c309a6f1fceae7d3809cc7b77e0ed3.oggvorbisstr::
+Car_Hood_Open.ogg::AudioStreamOggVorbis::3410413096655176372::1640911444::1763355329::1::::<><><>0<>0<>9d8d63804afbf95684ce576ea416c6eb<>res://.godot/imported/Car_Hood_Open.ogg-9e33b1887ae3b76f92dac6793eaa113b.oggvorbisstr::
+Car_Horn.ogg::AudioStreamOggVorbis::2491979520777506487::1640911480::1763355329::1::::<><><>0<>0<>7f5eb36d07acf5b529e88d823ce3739f<>res://.godot/imported/Car_Horn.ogg-5ea259bdd87aa47dada5b8b605cb276f.oggvorbisstr::
+Car_Parking_Brake.ogg::AudioStreamOggVorbis::8227611177021963967::1642551080::1763355329::1::::<><><>0<>0<>0bcaeee870160802af7e1f4d43349b42<>res://.godot/imported/Car_Parking_Brake.ogg-0595c4d6e56cc9150c6a432688716cdb.oggvorbisstr::
+Car_Trunk_Open.ogg::AudioStreamOggVorbis::4746218979469475593::1642550984::1763355329::1::::<><><>0<>0<>44c165211f4b3ca02919c2e69bf0bf3d<>res://.godot/imported/Car_Trunk_Open.ogg-ce1f8fd17a1d30dcd7ef182f23d47d3a.oggvorbisstr::
+::res://models/Wheel/::1763355299
+Wheel.obj::Mesh::3603838985576270969::1692955938::1763355329::1::::<><><>0<>0<>68b1d23f10fafa39f372a2268496760b<>res://.godot/imported/Wheel.obj-71e3019338e2cda7a4f436fd1e9c88a4.mesh<*>res://.godot/imported/Wheel.obj-71e3019338e2cda7a4f436fd1e9c88a4.mesh::uid://cmr24g2vkpu18::::res://models/Wheel/wheel.png
+wheel.png::CompressedTexture2D::5651893417507484381::1692955696::1763355333::1::::<><><>0<>0<>65f0af16e45d8b9eb5fe65b43a8c7a12<>res://.godot/imported/wheel.png-83093f473b4ca838090216ae083571c4.s3tc.ctex::

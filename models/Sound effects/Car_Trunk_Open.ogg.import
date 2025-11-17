@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b8vdsellxrruf"
+path="res://.godot/imported/Car_Trunk_Open.ogg-ce1f8fd17a1d30dcd7ef182f23d47d3a.oggvorbisstr"
+
+[deps]
+
+source_file="res://models/Sound effects/Car_Trunk_Open.ogg"
+dest_files=["res://.godot/imported/Car_Trunk_Open.ogg-ce1f8fd17a1d30dcd7ef182f23d47d3a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
