@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://b5oba7am038t"]
+[gd_scene load_steps=4 format=3 uid="uid://b5oba7am038t"]
 
 [ext_resource type="ArrayMesh" uid="uid://ben5a1u3oqk4i" path="res://models/Car 02/Car2.obj" id="1_ukbfy"]
+[ext_resource type="Script" uid="uid://cj6vnhmg3sx1x" path="res://character_body_3d.gd" id="2_crfiw"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ukbfy"]
+radius = 1.5009065
 
 [node name="pc" type="Node3D"]
 
@@ -11,3 +15,10 @@ transform = Transform3D(-0.99987316, 0.012054846, 0.010410617, 0.015360132, 0.90
 layers = 1023
 gi_mode = 2
 mesh = ExtResource("1_ukbfy")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+script = ExtResource("2_crfiw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4497247, 0)
+shape = SubResource("SphereShape3D_ukbfy")
