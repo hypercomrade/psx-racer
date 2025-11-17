@@ -23,15 +23,15 @@ func _physics_process(delta):
 	
 	# Forward/Reverse (Z-axis)
 	if Input.is_action_pressed("forward"):
-		input_dir.z -= 1
-	if Input.is_action_pressed("reverse"):
 		input_dir.z += 1
+	if Input.is_action_pressed("reverse"):
+		input_dir.z -= 1
 	
 	# Left/Right (X-axis)
 	if Input.is_action_pressed("left"):
-		input_dir.x -= 1
-	if Input.is_action_pressed("right"):
 		input_dir.x += 1
+	if Input.is_action_pressed("right"):
+		input_dir.x -= 1
 	
 	# Normalize the input direction to prevent faster diagonal movement
 	if input_dir.length() > 0:
