@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5oba7am038t"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_ct41q"]
+radius = 0.25
+height = 0.5
+
+[node name="pc" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15081918, 1.4180744)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_ct41q")
