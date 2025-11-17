@@ -3,22 +3,26 @@
 [ext_resource type="ArrayMesh" uid="uid://ben5a1u3oqk4i" path="res://models/Car 02/Car2.obj" id="1_ukbfy"]
 [ext_resource type="Script" uid="uid://cj6vnhmg3sx1x" path="res://character_body_3d.gd" id="2_crfiw"]
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_ukbfy"]
-radius = 1.5009065
+[sub_resource type="BoxShape3D" id="BoxShape3D_crfiw"]
+size = Vector3(2.3701782, 1.8807373, 5.668213)
 
 [node name="pc" type="Node3D"]
-
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.99987316, 0.012054846, 0.010410617, 0.015360132, 0.90272576, 0.42994225, -0.0042150444, 0.43004763, -0.9027964, 0.016781926, 4.311693, -5.8163424)
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-layers = 1023
-gi_mode = 2
-mesh = ExtResource("1_ukbfy")
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 script = ExtResource("2_crfiw")
 
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(-0.99987316, 0.012054846, 0.010410617, 0.015360132, 0.90272576, 0.42994225, -0.0042150444, 0.43004763, -0.9027964, 0.016781926, 4.311693, -5.8163424)
+top_level = true
+fov = 80.2
+near = 0.019
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4497247, 0)
-shape = SubResource("SphereShape3D_ukbfy")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.10272169, 1.0223707, 0.120476484)
+shape = SubResource("BoxShape3D_crfiw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+layers = 1023
+gi_mode = 2
+mesh = ExtResource("1_ukbfy")
+skeleton = NodePath("../..")

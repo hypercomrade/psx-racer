@@ -30,7 +30,7 @@ shape = SubResource("BoxShape3D_gv5m4")
 debug_color = Color(0.88574857, 0.24311858, 0.5745564, 0.41960785)
 
 [node name="pc" parent="." instance=ExtResource("1_f3sb7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 46.108536, 6.0397005)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3423805, 6.0397005)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.461923, 22.793457, 12.377712)
@@ -39,4 +39,4 @@ light_indirect_energy = 3.951
 light_volumetric_fog_energy = 3.865
 light_size = 2.45
 shadow_enabled = true
-omni_range = 29.549
+omni_range = 56.379
