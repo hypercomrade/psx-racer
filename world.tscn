@@ -6,13 +6,13 @@
 vertex_color_use_as_albedo = true
 
 [sub_resource type="BoxMesh" id="BoxMesh_gv5m4"]
-lightmap_size_hint = Vector2i(404, 216)
+lightmap_size_hint = Vector2i(904, 466)
 material = SubResource("StandardMaterial3D_f3sb7")
 add_uv2 = true
-size = Vector3(40, 1, 40)
+size = Vector3(90, 1, 90)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_gv5m4"]
-size = Vector3(29.576294, 2.250122, 32.62976)
+size = Vector3(89.095535, 2.250122, 90.33266)
 
 [node name="world" type="Node3D"]
 
@@ -25,7 +25,7 @@ gi_mode = 2
 mesh = SubResource("BoxMesh_gv5m4")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2257042, -2.727202, -0.31011963)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3405342, -2.727202, 3.0917587)
 shape = SubResource("BoxShape3D_gv5m4")
 debug_color = Color(0.88574857, 0.24311858, 0.5745564, 0.41960785)
 
