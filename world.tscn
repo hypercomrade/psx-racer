@@ -3,6 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://b5oba7am038t" path="res://pc.tscn" id="1_f3sb7"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_gv5m4"]
+lightmap_size_hint = Vector2i(404, 216)
+add_uv2 = true
 size = Vector3(40, 1, 40)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_gv5m4"]
@@ -14,6 +16,7 @@ size = Vector3(29.576294, 2.250122, 32.62976)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.07069969, -0.17343378, 0)
+layers = 1023
 mesh = SubResource("BoxMesh_gv5m4")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
@@ -25,4 +28,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.278651, 6.0397005)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.461923, 22.793457, 12.377712)
+light_energy = 6.719
+light_indirect_energy = 3.951
+light_volumetric_fog_energy = 3.865
+light_size = 2.45
 shadow_enabled = true
+omni_range = 2508.836
