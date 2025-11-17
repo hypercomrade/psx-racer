@@ -24,5 +24,6 @@ skeleton = NodePath("../..")
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D/MeshInstance3D"]
 transform = Transform3D(-0.99987316, 0.012054846, 0.010410617, 0.015360132, 0.90272576, 0.42994225, -0.0042150444, 0.43004763, -0.9027964, 0.016781926, 4.311693, -5.8163424)
 top_level = true
+doppler_tracking = 2
 fov = 80.2
 near = 0.019
