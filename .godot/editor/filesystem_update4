@@ -1,3 +1,5 @@
-res://pc.tscn
-res://character_body_3d.gd
 res://world.tscn
+res://Scenes/flat_square_brick.tscn
+res://pc.tscn
+res://Scenes/pc.tscn
+res://Scenes/road_1_straight.tscn

@@ -1,6 +1,6 @@
-CharacterBody3D
-CollisionShape3D
-OmniLight3D
-MeshInstance3D
 Camera3D
 StaticBody3D
+MeshInstance3D
+CollisionShape3D
+CharacterBody3D
+OmniLight3D

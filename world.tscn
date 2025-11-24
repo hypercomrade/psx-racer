@@ -1,6 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://mgp02mkor0at"]
+[gd_scene load_steps=7 format=3 uid="uid://mgp02mkor0at"]
 
-[ext_resource type="PackedScene" uid="uid://b5oba7am038t" path="res://pc.tscn" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://b5oba7am038t" path="res://Scenes/pc.tscn" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://clya7sqhlq16l" path="res://Scenes/flat_square_brick.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://db1lrbvdi1p83" path="res://Scenes/road_1_straight.tscn" id="2_tlwt5"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f3sb7"]
 vertex_color_use_as_albedo = true
@@ -19,7 +21,7 @@ size = Vector3(89.095535, 2.250122, 90.33266)
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33577347, -2.1706886, 3.0990543)
+transform = Transform3D(1, -3.8798895e-05, -0.0001450871, 3.8752394e-05, 0.9999999, -0.00029565705, 0.00014509953, 0.00029565094, 0.99999994, -0.33577347, -2.1706886, 3.0990543)
 layers = 1023
 gi_mode = 2
 mesh = SubResource("BoxMesh_gv5m4")
@@ -29,8 +31,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3405342, -2.727202, 3.0917
 shape = SubResource("BoxShape3D_gv5m4")
 debug_color = Color(0.88574857, 0.24311858, 0.5745564, 0.41960785)
 
-[node name="pc" parent="." instance=ExtResource("1_f3sb7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3423805, 6.0397005)
+[node name="flat_square_brick" parent="StaticBody3D" instance=ExtResource("2_fj7yv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.013175, -1.6266222, -2.3061254)
+
+[node name="road_1_straight" parent="StaticBody3D" instance=ExtResource("2_tlwt5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, -1.7323055, -2.304905)
+
+[node name="road_1_straight2" parent="StaticBody3D" instance=ExtResource("2_tlwt5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.001977, -1.7351596, 13.690789)
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.461923, 22.793457, 12.377712)
@@ -40,3 +48,6 @@ light_volumetric_fog_energy = 3.865
 light_size = 2.45
 shadow_enabled = true
 omni_range = 56.379
+
+[node name="pc" parent="." instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6411875, -0.8014883, 1.0918028)
