@@ -1,5 +1,7 @@
-Camera3D
+Node3D
 StaticBody3D
+WorldEnvironment
+Camera3D
 MeshInstance3D
 CollisionShape3D
 CharacterBody3D

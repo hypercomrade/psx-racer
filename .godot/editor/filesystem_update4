@@ -1,5 +1,2 @@
 res://world.tscn
-res://Scenes/flat_square_brick.tscn
-res://pc.tscn
-res://Scenes/pc.tscn
-res://Scenes/road_1_straight.tscn
+res://Scenes/road_1_corner.tscn
