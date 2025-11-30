@@ -1,10 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764302055
+::res://::1764461328
 character_body_3d.gd::GDScript::5469835329185074935::1763438888::0::1::::<>CharacterBody3D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::1790880795757653::1763438888::1763438941::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1763438888::0::1::::<><><>0<>0<><>::
 SOURCES.txt::TextFile::-1::1763438888::0::1::::<><><>0<>0<><>::
-world.tscn::PackedScene::855609227061733535::1764150398::0::1::::<><><>0<>0<><>::uid://b5oba7am038t::::res://Scenes/pc.tscn<>uid://defm0q85x2uhn::::res://World Assets/Skybox/Panorama_Sky_12-512x512.png<>uid://clya7sqhlq16l::::res://Scenes/flat_square_brick.tscn<>uid://db1lrbvdi1p83::::res://Scenes/road_1_straight.tscn<>uid://3ilp0dpck8yx::::res://Scenes/road_1_corner.tscn<>uid://yua7r2bb8nhp::::res://Scenes/road_1_tjunction.tscn<>uid://rmwk84u2qfxc::::res://Scenes/flat_lshape_large_alt.tscn<>uid://cs0j4eef1gkwy::::res://Scenes/flat_square_brick_alt.tscn
+world.tscn::PackedScene::855609227061733535::1764304836::0::1::::<><><>0<>0<><>::uid://b5oba7am038t::::res://Scenes/pc.tscn<>uid://defm0q85x2uhn::::res://World Assets/Skybox/Panorama_Sky_12-512x512.png<>uid://clya7sqhlq16l::::res://Scenes/flat_square_brick.tscn<>uid://db1lrbvdi1p83::::res://Scenes/road_1_straight.tscn<>uid://3ilp0dpck8yx::::res://Scenes/road_1_corner.tscn<>uid://yua7r2bb8nhp::::res://Scenes/road_1_tjunction.tscn<>uid://rmwk84u2qfxc::::res://Scenes/flat_lshape_large_alt.tscn<>uid://cs0j4eef1gkwy::::res://Scenes/flat_square_brick_alt.tscn<>uid://cr8qght7stvnt::::res://Scenes/flat_square_concrete.tscn<>uid://d3nv0ekgm2kxx::::res://World Assets/Buildings Prebuild/flat_Lshape_large_alt.fbx
 ::res://models/::1763438888
 ::res://models/Car 01/::1763438945
 Car.obj::Mesh::8852160320701413284::1763438888::1763438945::1::::<><><>0<>0<>528c8e38e23ef6c251c104c252802079<>res://.godot/imported/Car.obj-1cf5327ce1e0f9c5d22f7a8e7cb1213d.mesh<*>res://.godot/imported/Car.obj-1cf5327ce1e0f9c5d22f7a8e7cb1213d.mesh::uid://bco8r0x7vhcay::::res://models/Car 01/car.png
@@ -87,18 +87,19 @@ Car_Trunk_Open.ogg::AudioStreamOggVorbis::4746218979469475593::1763438888::17634
 ::res://models/Wheel/::1763438944
 Wheel.obj::Mesh::3603838985576270969::1763438888::1763438944::1::::<><><>0<>0<>68b1d23f10fafa39f372a2268496760b<>res://.godot/imported/Wheel.obj-71e3019338e2cda7a4f436fd1e9c88a4.mesh<*>res://.godot/imported/Wheel.obj-71e3019338e2cda7a4f436fd1e9c88a4.mesh::uid://cmr24g2vkpu18::::res://models/Wheel/wheel.png
 wheel.png::CompressedTexture2D::5651893417507484381::1763438888::1763438943::1::::<><><>0<>0<>65f0af16e45d8b9eb5fe65b43a8c7a12<>res://.godot/imported/wheel.png-83093f473b4ca838090216ae083571c4.s3tc.ctex::
-::res://Scenes/::1764150142
+::res://Scenes/::1764302507
 flat_lshape_large_alt.tscn::PackedScene::1219338285690486804::1764147535::0::1::::<><><>0<>0<><>::uid://d3nv0ekgm2kxx::::res://World Assets/Buildings Prebuild/flat_Lshape_large_alt.fbx
 flat_square_brick.tscn::PackedScene::5594521829377530529::1764025464::0::1::::<><><>0<>0<><>::uid://cu6ig5iia0ks4::::res://World Assets/Buildings Prebuild/flat_square_brick.fbx
 flat_square_brick_alt.tscn::PackedScene::6088448454215207836::1764147487::0::1::::<><><>0<>0<><>::uid://2heog4jj5ex::::res://World Assets/Buildings Prebuild/flat_square_brick_alt.fbx
 flat_square_concrete.tscn::PackedScene::6035158760257912089::1764147507::0::1::::<><><>0<>0<><>::uid://d1nmoppva6gdp::::res://World Assets/Buildings Prebuild/flat_square_concrete.fbx
 metalfence_both_sides_topbar.tscn::PackedScene::9043996712138222278::1764150142::0::1::::<><><>0<>0<><>::uid://bnbbnb2rji3uu::::res://World Assets/Fences/metalfence_both_sides_topbar.fbx
-pc.tscn::PackedScene::132972049403254509::1764025083::0::1::::<><><>0<>0<><>::uid://ben5a1u3oqk4i::::res://models/Car 02/Car2.obj<>uid://cj6vnhmg3sx1x::::res://character_body_3d.gd
+pc.tscn::PackedScene::132972049403254509::1764302507::0::1::::<><><>0<>0<><>::uid://cq77ejiatlplp::::res://Scripts/pc.gd<>uid://ben5a1u3oqk4i::::res://models/Car 02/Car2.obj
 road_1_corner.tscn::PackedScene::1982498636129192411::1764148253::0::1::::<><><>0<>0<><>::uid://pfygopoydbii::::res://World Assets/Roads/Road type 1/road_1_corner.fbx
 road_1_straight.tscn::PackedScene::7283823046851984298::1764025465::0::1::::<><><>0<>0<><>::uid://dlouf8q7se437::::res://World Assets/Roads/Road type 1/road_1_straight.fbx
 road_1_tjunction.tscn::PackedScene::1725877882453685161::1764147566::0::1::::<><><>0<>0<><>::uid://bdsyc8jg8b18e::::res://World Assets/Roads/Road type 1/road_1_Tjunction.fbx
-::res://Scripts/::1764023316
-::res://World Assets/::1764150024
+::res://Scripts/::1764302506
+pc.gd::GDScript::5963873525763206601::1764302506::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://World Assets/::1764302931
 ::res://World Assets/Buildings Prebuild/::1764022650
 flat_Lshape.fbx::PackedScene::3404858455686571172::1761769245::1764022647::1::::<><><>0<>0<>818cf407af364d4c3a9c3b29cfaff6da<>res://.godot/imported/flat_Lshape.fbx-dbe24bd510512699b169c8165e52efd2.scn::uid://cty3v0i3ah1gb::::res://World Assets/Buildings Prebuild/flat_Lshape_0.png
 flat_Lshape.glb::PackedScene::6875493351952527484::1761769250::1764022646::1::::<><><>0<>0<>f41b6c038bb576320ff536c2a38a5803<>res://.godot/imported/flat_Lshape.glb-43669e2c2ff58ce9db57a60267e2bb46.scn::uid://b1jgdcmmwynee::::res://World Assets/Buildings Prebuild/flat_Lshape_houses.png
@@ -177,6 +178,7 @@ metal_fence_gate_with_gate.glb::PackedScene::945183188841026978::1754305295::176
 metal_fence_gate_with_gate_0.png::CompressedTexture2D::7249358195496285471::1764150047::1764150048::1::::<><><>0<>0<>7984db439c7b01bbbf0a335a2863f62c<>res://.godot/imported/metal_fence_gate_with_gate_0.png-caa293cbf47c34dda2641395eef11169.s3tc.ctex::
 metal_fence_gate_with_gate_1.png::CompressedTexture2D::2053207099078153689::1764150047::1764150047::1::::<><><>0<>0<>ff9850906d3fdde6fa28b7cd10c2c31a<>res://.godot/imported/metal_fence_gate_with_gate_1.png-9c4bb5dd4bf71f8c0e4827abf89af086.ctex::
 metal_fence_gate_with_gate_TexturesCom_Metal_PipeRusted2_1_82x0_47_512_albedo.png::CompressedTexture2D::576427711882775913::1764150047::1764150048::1::::<><><>0<>0<>75e810fef27a33c42cf8539fba8978b0<>res://.godot/imported/metal_fence_gate_with_gate_TexturesCom_Metal_PipeRusted2_1_82x0_47_512_albedo.png-dcae7b8cd58cd508b17af58f05d7e2c2.s3tc.ctex::
+::res://World Assets/Nature/::1764302931
 ::res://World Assets/Roads/::1764024142
 ::res://World Assets/Roads/Road type 1/::1764024155
 road_1_corner.fbx::PackedScene::1064623225097864756::1761769244::1764024146::1::::<><><>0<>0<>d8563338c11d3b08e3d46f7cc8f14abb<>res://.godot/imported/road_1_corner.fbx-46a6a9e023d35e139c5957ad95f2ab5b.scn::uid://b303v0yx5wv3h::::res://World Assets/Roads/Road type 1/road_1_corner_0.png<>uid://rpilihehrwp5::::res://World Assets/Roads/Road type 1/road_1_corner_1.png
@@ -227,10 +229,5 @@ road_1_Tjunction_no_sides_road1_alt.png::CompressedTexture2D::861308385386492712
 road_1_Tjunction_no_sides_sidewalk.jpg::CompressedTexture2D::8199471670024609836::1764024152::1764024154::1::::<><><>0<>0<>8d1f6f11ae776430d93dd0633546afd3<>res://.godot/imported/road_1_Tjunction_no_sides_sidewalk.jpg-bc520147e5f05fd4445b6263232b3a7b.s3tc.ctex::
 road_1_Tjunction_road1_alt.png::CompressedTexture2D::2946288814609979624::1764024151::1764024155::1::::<><><>0<>0<>07ff3cd126985564caa4c3607618196f<>res://.godot/imported/road_1_Tjunction_road1_alt.png-8875cfdfb7de16d69ede1fae226b4b80.s3tc.ctex::
 road_1_Tjunction_sidewalk.jpg::CompressedTexture2D::5067388190933389367::1764024151::1764024155::1::::<><><>0<>0<>2829c8b69b891daa0e87ff35cb56a004<>res://.godot/imported/road_1_Tjunction_sidewalk.jpg-75c52af8a3f82719cf147732e1578993.s3tc.ctex::
-::res://World Assets/Skybox/::1764149649
-cubemap.png::CompressedTexture2D::3716300832185219015::1739829850::1764148961::1::::<><><>0<>0<>824cded67a059de78de7b9a0547ed302<>res://.godot/imported/cubemap.png-9144e69ddd8ab21e467aff8b90c4f423.s3tc.ctex::
-Panorama_Sky_11-512x512.png::CompressedTexture2D::5423689760611652920::1745577889::1764149649::1::::<><><>0<>0<>45781ded63dbee7664aa0fa38f2a0fb3<>res://.godot/imported/Panorama_Sky_11-512x512.png-67a114c45a0c5cad097289da42f2515d.s3tc.ctex::
+::res://World Assets/Skybox/::1764302923
 Panorama_Sky_12-512x512.png::CompressedTexture2D::7451113455909582611::1745578094::1764149641::1::::<><><>0<>0<>4472f33f27cd652a97ba42a36384d5a3<>res://.godot/imported/Panorama_Sky_12-512x512.png-0c16f4a10fa28a09aec97e9a0f3fa460.s3tc.ctex::
-Panorama_Sky_20-512x512.png::CompressedTexture2D::7367812163354924695::1745582596::1764149519::1::::<><><>0<>0<>70dc3c8baf07569f7c371d5fdaa2d7bb<>res://.godot/imported/Panorama_Sky_20-512x512.png-b6261e43da1b8883eb947cf3bd307d2f.ctex::
-Panorama_Sky_25-512x512.png::CompressedTexture2D::6510461431478928173::1745820909::1764149526::1::::<><><>0<>0<>e7a1eb671de9c1ae9678ed7df5000172<>res://.godot/imported/Panorama_Sky_25-512x512.png-7ee5ca545a52fd0740a7e512b6ee949c.s3tc.ctex::
-PurplyBlueSky.png::CompressedTexture2D::3878345301151951287::1586832476::1764148775::1::::<><><>0<>0<>7d58818d0fed99aff19a8ab69e949e60<>res://.godot/imported/PurplyBlueSky.png-19b03860c2d9c4360dfe4535c48551d6.s3tc.ctex::
