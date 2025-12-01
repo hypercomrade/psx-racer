@@ -22,9 +22,19 @@ sky_material = SubResource("PanoramaSkyMaterial_036b0")
 background_mode = 2
 sky = SubResource("Sky_dwbse")
 sky_custom_fov = 54.2
-fog_density = 0.0
-volumetric_fog_density = 0.0
-volumetric_fog_albedo = Color(0.3515629, 0.3515629, 0.35156286, 1)
+fog_enabled = true
+fog_mode = 1
+fog_light_energy = 0.38
+fog_density = 0.3333
+fog_aerial_perspective = 0.224
+fog_height = 26.26
+fog_depth_curve = 1.9318731
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0165
+volumetric_fog_albedo = Color(0.427493, 0.42749307, 0.42749307, 1)
+volumetric_fog_anisotropy = 0.9
+volumetric_fog_length = 578.59
+volumetric_fog_sky_affect = 0.728
 
 [node name="world" type="Node3D"]
 
