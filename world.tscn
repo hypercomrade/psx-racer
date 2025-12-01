@@ -516,3 +516,387 @@ distance_fade_begin = 100.0
 spot_range = 16.079
 spot_attenuation = -0.37
 spot_angle = 40.9
+
+[node name="street_light_clean3" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25, 0.2, 51)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean3"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean4" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -89, 0.2, 51)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean4"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean5" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -57, 0.2, 64)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean5"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean6" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -122, 0.2, 35)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean6"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean7" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -122, 0.2, 79)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean7"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean8" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -167, 0.2, 79)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean8"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean9" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -167, 0.2, 35)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean9"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean10" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -213, 0.2, 35)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean10"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean11" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -213, 0.2, -16)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean11"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean12" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -190, 0.2, -76)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean12"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean13" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -175, 0.2, -108)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean13"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean14" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -117, 0.2, -108)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean14"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean15" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1.1924881e-08, 0, 1, 0, 1, 0, -1, 0, 1.1924881e-08, -144, 0.2, -96)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean15"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean16" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117, 0.2, -77)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean16"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean17" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133, 0.2, -53)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean17"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean18" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -121, 0.2, -31)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean18"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean19" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133, 0.2, -10)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean19"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean20" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -96, 0.2, -1)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean20"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean21" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -57, 0.2, -10)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean21"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean22" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0.2, -47)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean22"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean23" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -41, 0.2, -57)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean23"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean24" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -24, 0.2, -76)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean24"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean25" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0.2, -57)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean25"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean26" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 6, 0.2, -27)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean26"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
