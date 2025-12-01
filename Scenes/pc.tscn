@@ -1,13 +1,55 @@
-[gd_scene load_steps=4 format=3 uid="uid://b5oba7am038t"]
+[gd_scene load_steps=8 format=3 uid="uid://b5oba7am038t"]
 
 [ext_resource type="Script" uid="uid://cq77ejiatlplp" path="res://Scripts/pc.gd" id="1_touer"]
 [ext_resource type="ArrayMesh" uid="uid://ben5a1u3oqk4i" path="res://models/Car 02/Car2.obj" id="1_ukbfy"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_touer"]
+lifetime_randomness = 0.3
+emission_shape_offset = Vector3(0, 10, 0)
+emission_shape_scale = Vector3(30, 20, 75)
+emission_shape = 1
+emission_sphere_radius = 1.0
+direction = Vector3(0, -1, 0)
+spread = 0.1
+flatness = 1.0
+initial_velocity_min = 5.0
+initial_velocity_max = 5.0
+collision_mode = 1
+collision_friction = 0.0
+collision_bounce = 0.0
+collision_use_scale = true
+
+[sub_resource type="Curve" id="Curve_touer"]
+_limits = [0.0, 1.0, 0.0, 0.01]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_touer"]
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+use_particle_trails = true
+
+[sub_resource type="RibbonTrailMesh" id="RibbonTrailMesh_cyams"]
+material = SubResource("StandardMaterial3D_touer")
+size = 0.038
+curve = SubResource("Curve_touer")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_crfiw"]
 size = Vector3(2.3701782, 1.8807373, 5.668213)
 
 [node name="pc" type="CharacterBody3D"]
 script = ExtResource("1_touer")
+
+[node name="rain" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7665405, -2.219366, 0.065654755)
+amount = 300
+lifetime = 0.4
+interp_to_end = 0.25
+speed_scale = 1.5
+randomness = 0.2
+trail_enabled = true
+trail_lifetime = 3.5999999999999996
+process_material = SubResource("ParticleProcessMaterial_touer")
+draw_pass_1 = SubResource("RibbonTrailMesh_cyams")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.10272169, 1.0223707, 0.120476484)

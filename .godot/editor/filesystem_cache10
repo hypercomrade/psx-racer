@@ -1,10 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1764540128
+::res://::1764549994
 character_body_3d.gd::GDScript::5469835329185074935::1764540025::0::1::::<>CharacterBody3D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::1790880795757653::1764540025::1764540129::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1764540025::0::1::::<><><>0<>0<><>::
 SOURCES.txt::TextFile::-1::1764540025::0::1::::<><><>0<>0<><>::
-world.tscn::PackedScene::855609227061733535::1764540025::0::1::::<><><>0<>0<><>::uid://b5oba7am038t::::res://Scenes/pc.tscn<>uid://defm0q85x2uhn::::res://World Assets/Skybox/Panorama_Sky_12-512x512.png<>uid://clya7sqhlq16l::::res://Scenes/flat_square_brick.tscn<>uid://db1lrbvdi1p83::::res://Scenes/road_1_straight.tscn<>uid://3ilp0dpck8yx::::res://Scenes/road_1_corner.tscn<>uid://yua7r2bb8nhp::::res://Scenes/road_1_tjunction.tscn<>uid://rmwk84u2qfxc::::res://Scenes/flat_lshape_large_alt.tscn<>uid://cs0j4eef1gkwy::::res://Scenes/flat_square_brick_alt.tscn<>uid://cr8qght7stvnt::::res://Scenes/flat_square_concrete.tscn<>uid://d3nv0ekgm2kxx::::res://World Assets/Buildings Prebuild/flat_Lshape_large_alt.fbx
+world.tscn::PackedScene::855609227061733535::1764543458::0::1::::<><><>0<>0<><>::uid://b5oba7am038t::::res://Scenes/pc.tscn<>uid://defm0q85x2uhn::::res://World Assets/Skybox/Panorama_Sky_12-512x512.png<>uid://clya7sqhlq16l::::res://Scenes/flat_square_brick.tscn<>uid://db1lrbvdi1p83::::res://Scenes/road_1_straight.tscn<>uid://3ilp0dpck8yx::::res://Scenes/road_1_corner.tscn<>uid://yua7r2bb8nhp::::res://Scenes/road_1_tjunction.tscn<>uid://rmwk84u2qfxc::::res://Scenes/flat_lshape_large_alt.tscn<>uid://cs0j4eef1gkwy::::res://Scenes/flat_square_brick_alt.tscn<>uid://cr8qght7stvnt::::res://Scenes/flat_square_concrete.tscn<>uid://d3nv0ekgm2kxx::::res://World Assets/Buildings Prebuild/flat_Lshape_large_alt.fbx
 ::res://models/::1764540025
 ::res://models/Car 01/::1764540025
 Car.obj::Mesh::8852160320701413284::1764540025::1764540025::1::::<><><>0<>0<>528c8e38e23ef6c251c104c252802079<>res://.godot/imported/Car.obj-1cf5327ce1e0f9c5d22f7a8e7cb1213d.mesh<*>res://.godot/imported/Car.obj-1cf5327ce1e0f9c5d22f7a8e7cb1213d.mesh::uid://bco8r0x7vhcay::::res://models/Car 01/car.png
@@ -87,18 +87,18 @@ Car_Trunk_Open.ogg::AudioStreamOggVorbis::4746218979469475593::1764540025::17645
 ::res://models/Wheel/::1764540025
 Wheel.obj::Mesh::3603838985576270969::1764540025::1764540025::1::::<><><>0<>0<>68b1d23f10fafa39f372a2268496760b<>res://.godot/imported/Wheel.obj-71e3019338e2cda7a4f436fd1e9c88a4.mesh<*>res://.godot/imported/Wheel.obj-71e3019338e2cda7a4f436fd1e9c88a4.mesh::uid://cmr24g2vkpu18::::res://models/Wheel/wheel.png
 wheel.png::CompressedTexture2D::5651893417507484381::1764540025::1764540025::1::::<><><>0<>0<>65f0af16e45d8b9eb5fe65b43a8c7a12<>res://.godot/imported/wheel.png-83093f473b4ca838090216ae083571c4.s3tc.ctex::
-::res://Scenes/::1764540025
+::res://Scenes/::1764544207
 flat_lshape_large_alt.tscn::PackedScene::1219338285690486804::1764540025::0::1::::<><><>0<>0<><>::uid://d3nv0ekgm2kxx::::res://World Assets/Buildings Prebuild/flat_Lshape_large_alt.fbx
 flat_square_brick.tscn::PackedScene::5594521829377530529::1764540025::0::1::::<><><>0<>0<><>::uid://cu6ig5iia0ks4::::res://World Assets/Buildings Prebuild/flat_square_brick.fbx
 flat_square_brick_alt.tscn::PackedScene::6088448454215207836::1764540025::0::1::::<><><>0<>0<><>::uid://2heog4jj5ex::::res://World Assets/Buildings Prebuild/flat_square_brick_alt.fbx
 flat_square_concrete.tscn::PackedScene::6035158760257912089::1764540025::0::1::::<><><>0<>0<><>::uid://d1nmoppva6gdp::::res://World Assets/Buildings Prebuild/flat_square_concrete.fbx
 metalfence_both_sides_topbar.tscn::PackedScene::9043996712138222278::1764540025::0::1::::<><><>0<>0<><>::uid://bnbbnb2rji3uu::::res://World Assets/Fences/metalfence_both_sides_topbar.fbx
-pc.tscn::PackedScene::132972049403254509::1764540025::0::1::::<><><>0<>0<><>::uid://cq77ejiatlplp::::res://Scripts/pc.gd<>uid://ben5a1u3oqk4i::::res://models/Car 02/Car2.obj
+pc.tscn::PackedScene::132972049403254509::1764544207::0::1::::<><><>0<>0<><>::uid://cq77ejiatlplp::::res://Scripts/pc.gd<>uid://ben5a1u3oqk4i::::res://models/Car 02/Car2.obj
 road_1_corner.tscn::PackedScene::1982498636129192411::1764540025::0::1::::<><><>0<>0<><>::uid://pfygopoydbii::::res://World Assets/Roads/Road type 1/road_1_corner.fbx
 road_1_straight.tscn::PackedScene::7283823046851984298::1764540025::0::1::::<><><>0<>0<><>::uid://dlouf8q7se437::::res://World Assets/Roads/Road type 1/road_1_straight.fbx
 road_1_tjunction.tscn::PackedScene::1725877882453685161::1764540025::0::1::::<><><>0<>0<><>::uid://bdsyc8jg8b18e::::res://World Assets/Roads/Road type 1/road_1_Tjunction.fbx
-::res://Scripts/::1764540025
-pc.gd::GDScript::5963873525763206601::1764540025::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://Scripts/::1764541431
+pc.gd::GDScript::5963873525763206601::1764541431::0::1::::<>CharacterBody3D<><>0<>0<><>::
 ::res://World Assets/::1764540025
 ::res://World Assets/Buildings Prebuild/::1764540025
 flat_Lshape.fbx::PackedScene::3404858455686571172::1764540025::1764540025::1::::<><><>0<>0<>818cf407af364d4c3a9c3b29cfaff6da<>res://.godot/imported/flat_Lshape.fbx-dbe24bd510512699b169c8165e52efd2.scn::uid://cty3v0i3ah1gb::::res://World Assets/Buildings Prebuild/flat_Lshape_0.png

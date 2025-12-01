@@ -28,7 +28,7 @@ volumetric_fog_albedo = Color(0.3515629, 0.3515629, 0.35156286, 1)
 [node name="world" type="Node3D"]
 
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.538077, 43.793457, 13.377712)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.538077, 128.79346, 13.377712)
 light_energy = 11.534
 light_indirect_energy = 3.951
 light_volumetric_fog_energy = 3.865
@@ -247,6 +247,10 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -40,
 
 [node name="flat_Lshape_large_alt" parent="Static_World/Roads" instance=ExtResource("6_ioo17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -122, 0, -128)
+
+[node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="Static_World/Roads"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90, 0, 0)
+size = Vector3(385.99, 2, 332.83)
 
 [node name="Buildings" type="Node3D" parent="Static_World"]
 
