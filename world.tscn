@@ -487,3 +487,32 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75, 0, -80)
 
 [node name="street_light_clean" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.830083, 0.32000056, 7.2223186)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
+
+[node name="street_light_clean2" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 6, 0.2, 34)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Static_World/Misc/street_light_clean2"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 1.2, 6.4, 0.35)
+light_color = Color(0.8958134, 0.7532068, 0, 1)
+light_energy = 1.38
+light_indirect_energy = 6.291
+light_volumetric_fog_energy = 1.292
+light_specular = 0.0
+distance_fade_enabled = true
+distance_fade_begin = 100.0
+spot_range = 16.079
+spot_attenuation = -0.37
+spot_angle = 40.9
