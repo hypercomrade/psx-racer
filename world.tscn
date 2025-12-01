@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://mgp02mkor0at"]
+[gd_scene load_steps=15 format=3 uid="uid://mgp02mkor0at"]
 
 [ext_resource type="PackedScene" uid="uid://b5oba7am038t" path="res://Scenes/pc.tscn" id="1_f3sb7"]
 [ext_resource type="Texture2D" uid="uid://defm0q85x2uhn" path="res://World Assets/Skybox/Panorama_Sky_12-512x512.png" id="2_aqk2v"]
@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://cs0j4eef1gkwy" path="res://Scenes/flat_square_brick_alt.tscn" id="8_wse8f"]
 [ext_resource type="PackedScene" uid="uid://cr8qght7stvnt" path="res://Scenes/flat_square_concrete.tscn" id="9_wse8f"]
 [ext_resource type="PackedScene" uid="uid://d3nv0ekgm2kxx" path="res://World Assets/Buildings Prebuild/flat_Lshape_large_alt.fbx" id="10_ic0uy"]
+[ext_resource type="PackedScene" uid="uid://bx2trc3tw0ck5" path="res://World Assets/street_light_clean.fbx" id="11_ic0uy"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_036b0"]
 panorama = ExtResource("2_aqk2v")
@@ -425,61 +426,64 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -199, 0, -43)
 [node name="flat_square_concrete16" parent="Static_World/Buildings" instance=ExtResource("9_wse8f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -195, 0, -36)
 
-[node name="Misc" type="Node3D" parent="Static_World"]
-
-[node name="flat_Lshape_large_alt" parent="." instance=ExtResource("6_ioo17")]
+[node name="flat_Lshape_large_alt14" parent="Static_World/Buildings" instance=ExtResource("6_ioo17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -236, 0, -53)
 
-[node name="flat_square_brick" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick23" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -215, 0, -18)
 
-[node name="flat_square_brick2" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick24" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -216, 0, -79)
 
-[node name="flat_square_concrete" parent="." instance=ExtResource("9_wse8f")]
+[node name="flat_square_concrete17" parent="Static_World/Buildings" instance=ExtResource("9_wse8f")]
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -183, 0, -95)
 
-[node name="flat_square_brick3" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick25" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -167, 0, -94)
 
-[node name="flat_square_brick_alt" parent="." instance=ExtResource("8_wse8f")]
+[node name="flat_square_brick_alt7" parent="Static_World/Buildings" instance=ExtResource("8_wse8f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -167, 0, -77)
 
-[node name="flat_square_brick4" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick26" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -171, 0, -38)
 
-[node name="flat_Lshape_large_alt2" parent="." instance=ExtResource("6_ioo17")]
+[node name="flat_Lshape_large_alt15" parent="Static_World/Buildings" instance=ExtResource("6_ioo17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -156, 0, -46)
 
-[node name="flat_square_brick_alt2" parent="." instance=ExtResource("8_wse8f")]
+[node name="flat_square_brick_alt8" parent="Static_World/Buildings" instance=ExtResource("8_wse8f")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -133, 0, -77)
 
-[node name="flat_square_brick_alt3" parent="." instance=ExtResource("8_wse8f")]
+[node name="flat_square_brick_alt9" parent="Static_World/Buildings" instance=ExtResource("8_wse8f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -152, 0, -77)
 
-[node name="flat_square_concrete2" parent="." instance=ExtResource("9_wse8f")]
+[node name="flat_square_concrete18" parent="Static_World/Buildings" instance=ExtResource("9_wse8f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103, 0, -65)
 
-[node name="flat_square_concrete3" parent="." instance=ExtResource("9_wse8f")]
+[node name="flat_square_concrete19" parent="Static_World/Buildings" instance=ExtResource("9_wse8f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103, 0, -82)
 
-[node name="flat_square_brick5" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick27" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102, 0, -99)
 
-[node name="flat_Lshape_large_alt3" parent="." instance=ExtResource("6_ioo17")]
+[node name="flat_Lshape_large_alt16" parent="Static_World/Buildings" instance=ExtResource("6_ioo17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103, 0, -116)
 
-[node name="flat_square_concrete4" parent="." instance=ExtResource("9_wse8f")]
+[node name="flat_square_concrete20" parent="Static_World/Buildings" instance=ExtResource("9_wse8f")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -183, 0, -95)
 
-[node name="flat_square_brick6" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick28" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -166, 0, -127)
 
-[node name="flat_square_brick7" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick29" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -166, 0, -117)
 
-[node name="flat_square_brick8" parent="." instance=ExtResource("2_fj7yv")]
+[node name="flat_square_brick30" parent="Static_World/Buildings" instance=ExtResource("2_fj7yv")]
 transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -132, 0, -127)
 
-[node name="flat_Lshape_large_alt4" parent="." instance=ExtResource("6_ioo17")]
+[node name="flat_Lshape_large_alt17" parent="Static_World/Buildings" instance=ExtResource("6_ioo17")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75, 0, -80)
+
+[node name="Misc" type="Node3D" parent="Static_World"]
+
+[node name="street_light_clean" parent="Static_World/Misc" instance=ExtResource("11_ic0uy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.830083, 0.32000056, 7.2223186)
