@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2xegej7kypod"]
+
+[ext_resource type="PackedScene" uid="uid://c1l0p3atiq762" path="res://World Assets/Misc/skeleton.fbx" id="1_81u3t"]
+[ext_resource type="Texture2D" uid="uid://c21y0kd6bw8yx" path="res://World Assets/Misc/base.png" id="2_vd5x3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pegji"]
+albedo_texture = ExtResource("2_vd5x3")
+
+[node name="skeleton" instance=ExtResource("1_81u3t")]
+
+[node name="Cube" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_pegji")

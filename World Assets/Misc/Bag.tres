@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://lx4ft6hsyrv6"]
+
+[ext_resource type="Texture2D" uid="uid://b47lt24mdyv6l" path="res://World Assets/Misc/dumpster_diagonal_full_no_lid_2.png" id="1_kiu01"]
+
+[resource]
+resource_name = "Bag"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_kiu01")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0

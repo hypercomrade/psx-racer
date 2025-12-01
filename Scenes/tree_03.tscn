@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhe66pxfntr7k"]
+
+[ext_resource type="PackedScene" uid="uid://bywec6y60c7mj" path="res://World Assets/Nature/tree03.fbx" id="1_q426c"]
+[ext_resource type="Texture2D" uid="uid://ctw2gorwq4pv2" path="res://World Assets/Nature/tree03.png" id="2_yp7gw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_napjx"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("2_yp7gw")
+
+[node name="tree03" instance=ExtResource("1_q426c")]
+
+[node name="tree03" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_napjx")

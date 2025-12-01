@@ -19,6 +19,12 @@ config/icon="res://icon.svg"
 
 import/blender/enabled=false
 
+[importer_defaults]
+
+scene={
+&"materials/extract": 1
+}
+
 [input]
 
 forward={

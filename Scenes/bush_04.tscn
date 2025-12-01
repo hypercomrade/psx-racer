@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckwsn0n5j57au"]
+
+[ext_resource type="PackedScene" uid="uid://c6c288okh58yb" path="res://World Assets/Nature/bush04.fbx" id="1_nlyd6"]
+[ext_resource type="Texture2D" uid="uid://c8xcohei0h0dl" path="res://World Assets/Nature/bush04.png" id="2_mas41"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vbur4"]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+albedo_texture = ExtResource("2_mas41")
+
+[node name="bush04" instance=ExtResource("1_nlyd6")]
+
+[node name="bush04" parent="." index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 1.6292067e-07, 0, -1.6292067e-07, 1, -0.15047693, 0.020721436, 0.06930733)
+surface_material_override/0 = SubResource("StandardMaterial3D_vbur4")
