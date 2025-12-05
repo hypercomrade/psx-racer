@@ -1,2 +1,3 @@
 res://Scenes/pc.tscn
+res://Scripts/pc.gd
 res://world.tscn

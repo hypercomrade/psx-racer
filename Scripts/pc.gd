@@ -1,5 +1,8 @@
 extends CharacterBody3D
 
+# Add this export variable to choose player
+@export var player_number: int = 1
+
 # Car physics variables
 @export var max_speed: float = 25.0
 @export var acceleration: float = 8.0
@@ -27,6 +30,7 @@ var car_angle: float = 0.1  # Current angle relative to velocity
 
 func _ready():
 	velocity.y = 0
+	print("Player ", player_number, " car initialized")
 
 func _physics_process(delta):
 	# Apply gravity
@@ -35,22 +39,22 @@ func _physics_process(delta):
 	else:
 		velocity.y = 0
 	
-	# Get input - CORRECTED DIRECTIONS
+	# Get input based on player number
 	acceleration_input = 0.0
-	if Input.is_action_pressed("forward"):
+	if Input.is_action_pressed(_get_action_name("forward")):
 		acceleration_input += 1.0
-	if Input.is_action_pressed("reverse"):
+	if Input.is_action_pressed(_get_action_name("reverse")):
 		acceleration_input -= 0.7  # Less powerful in reverse
 	
 	# Get turn input
 	turn_input = 0.0
-	if Input.is_action_pressed("left"):
+	if Input.is_action_pressed(_get_action_name("left")):
 		turn_input += 1.0
-	if Input.is_action_pressed("right"):
+	if Input.is_action_pressed(_get_action_name("right")):
 		turn_input -= 1.0
 	
 	# Check for drift (handbrake)
-	is_drifting = Input.is_action_pressed("ui_accept") and abs(current_speed) > 3.0
+	is_drifting = Input.is_action_pressed(_get_action_name("drift")) and abs(current_speed) > 3.0
 	
 	# Calculate speed
 	var target_speed = 0.0
@@ -140,5 +144,20 @@ func _physics_process(delta):
 			velocity.x = lerp(velocity.x, forward_vel.x, current_traction * delta)
 			velocity.z = lerp(velocity.z, forward_vel.z, current_traction * delta)
 	
-	# Move the car
+	# Move the cars
 	move_and_slide()
+
+func _get_action_name(action: String) -> String:
+	match action:
+		"forward":
+			return "forward_p1" if player_number == 1 else "forward_p2"
+		"reverse":
+			return "reverse_p1" if player_number == 1 else "reverse_p2"
+		"left":
+			return "left_p1" if player_number == 1 else "left_p2"
+		"right":
+			return "right_p1" if player_number == 1 else "right_p2"
+		"drift":
+			return "drift_p1" if player_number == 1 else "drift_p2"
+		_:
+			return action
