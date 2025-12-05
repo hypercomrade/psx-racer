@@ -64,31 +64,6 @@ light_size = 2.45
 shadow_enabled = true
 omni_range = 56.379
 
-[node name="pc" parent="." instance=ExtResource("1_f3sb7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3588126, 0.5800272, -2.9081974)
-
-[node name="Camera3D" type="Camera3D" parent="pc"]
-transform = Transform3D(-1, 8.7422784e-08, 1.7763568e-15, 8.444392e-08, 0.9659258, 0.25881913, 2.2626686e-08, 0.25881913, -0.9659258, 0, 4, -6)
-current = true
-
-[node name="SpotLight3D3" type="SpotLight3D" parent="pc"]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.72632384, 1.0053838, 3.338723)
-light_color = Color(0.92941177, 0.79607844, 0, 1)
-light_energy = 4.0
-light_volumetric_fog_energy = 1.3
-distance_fade_enabled = true
-spot_range = 45.0
-spot_angle = 30.0
-
-[node name="SpotLight3D4" type="SpotLight3D" parent="pc"]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.7647395, 0.9922948, 3.338723)
-light_color = Color(0.92941177, 0.79607844, 0, 1)
-light_energy = 4.0
-light_volumetric_fog_energy = 1.3
-distance_fade_enabled = true
-spot_range = 45.0
-spot_angle = 30.0
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_pkg7o")
 
@@ -1262,15 +1237,31 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130.46571, 0, 105.61191)
 [node name="tree44" parent="Static_World/Nature" instance=ExtResource("13_ikiii")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130.19046, 0, 127.365616)
 
-[node name="pc2" parent="." instance=ExtResource("1_f3sb7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8068063, 0.43972647, -2.9081974)
-player_number = 2
+[node name="SplitScreenHolder" type="GridContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2
 
-[node name="Camera3D" type="Camera3D" parent="pc2"]
+[node name="SubViewportContainer" type="SubViewportContainer" parent="SplitScreenHolder"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SplitScreenHolder/SubViewportContainer"]
+size = Vector2i(574, 648)
+
+[node name="pc" parent="SplitScreenHolder/SubViewportContainer/SubViewport" instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3588126, 0.5800272, -2.9081974)
+
+[node name="Camera3D" type="Camera3D" parent="SplitScreenHolder/SubViewportContainer/SubViewport/pc"]
 transform = Transform3D(-1, 8.7422784e-08, 1.7763568e-15, 8.444392e-08, 0.9659258, 0.25881913, 2.2626686e-08, 0.25881913, -0.9659258, 0, 4, -6)
 current = true
 
-[node name="SpotLight3D3" type="SpotLight3D" parent="pc2"]
+[node name="SpotLight3D3" type="SpotLight3D" parent="SplitScreenHolder/SubViewportContainer/SubViewport/pc"]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.72632384, 1.0053838, 3.338723)
 light_color = Color(0.92941177, 0.79607844, 0, 1)
 light_energy = 4.0
@@ -1279,7 +1270,44 @@ distance_fade_enabled = true
 spot_range = 45.0
 spot_angle = 30.0
 
-[node name="SpotLight3D4" type="SpotLight3D" parent="pc2"]
+[node name="SpotLight3D4" type="SpotLight3D" parent="SplitScreenHolder/SubViewportContainer/SubViewport/pc"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.7647395, 0.9922948, 3.338723)
+light_color = Color(0.92941177, 0.79607844, 0, 1)
+light_energy = 4.0
+light_volumetric_fog_energy = 1.3
+distance_fade_enabled = true
+spot_range = 45.0
+spot_angle = 30.0
+
+[node name="SubViewportContainer2" type="SubViewportContainer" parent="SplitScreenHolder"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SplitScreenHolder/SubViewportContainer2"]
+handle_input_locally = false
+size = Vector2i(574, 648)
+render_target_update_mode = 4
+
+[node name="pc2" parent="SplitScreenHolder/SubViewportContainer2/SubViewport" instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8068063, 0.43972647, -2.9081974)
+player_number = 2
+
+[node name="Camera3D" type="Camera3D" parent="SplitScreenHolder/SubViewportContainer2/SubViewport/pc2"]
+transform = Transform3D(-1, 8.7422784e-08, 1.7763568e-15, 8.444392e-08, 0.9659258, 0.25881913, 2.2626686e-08, 0.25881913, -0.9659258, 0, 4, -6)
+current = true
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="SplitScreenHolder/SubViewportContainer2/SubViewport/pc2"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.72632384, 1.0053838, 3.338723)
+light_color = Color(0.92941177, 0.79607844, 0, 1)
+light_energy = 4.0
+light_volumetric_fog_energy = 1.3
+distance_fade_enabled = true
+spot_range = 45.0
+spot_angle = 30.0
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="SplitScreenHolder/SubViewportContainer2/SubViewport/pc2"]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0.7647395, 0.9922948, 3.338723)
 light_color = Color(0.92941177, 0.79607844, 0, 1)
 light_energy = 4.0
