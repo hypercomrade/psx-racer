@@ -1,3 +1,10 @@
+Label
+Panel
+MarginContainer
+Button
+VBoxContainer
+Container
+Camera3D
 SubViewport
 SubViewportContainer
 GridContainer
@@ -6,9 +13,3 @@ MeshInstance3D
 Node3D
 GPUParticles3D
 GPUParticlesCollisionBox3D
-CharacterBody3D
-Camera3D
-StaticBody3D
-WorldEnvironment
-CollisionShape3D
-OmniLight3D

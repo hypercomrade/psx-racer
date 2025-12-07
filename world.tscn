@@ -1252,7 +1252,9 @@ size_flags_vertical = 3
 stretch = true
 
 [node name="SubViewport" type="SubViewport" parent="SplitScreenHolder/SubViewportContainer"]
+handle_input_locally = false
 size = Vector2i(574, 648)
+render_target_update_mode = 4
 
 [node name="pc" parent="SplitScreenHolder/SubViewportContainer/SubViewport" instance=ExtResource("1_f3sb7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3588126, 0.5800272, -2.9081974)
