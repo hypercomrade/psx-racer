@@ -1,8 +1,9 @@
-[gd_scene load_steps=27 format=3 uid="uid://mgp02mkor0at"]
+[gd_scene load_steps=29 format=3 uid="uid://mgp02mkor0at"]
 
 [ext_resource type="PackedScene" uid="uid://b5oba7am038t" path="res://Scenes/pc.tscn" id="1_f3sb7"]
 [ext_resource type="Texture2D" uid="uid://defm0q85x2uhn" path="res://World Assets/Skybox/Panorama_Sky_12-512x512.png" id="2_aqk2v"]
 [ext_resource type="PackedScene" uid="uid://clya7sqhlq16l" path="res://Scenes/flat_square_brick.tscn" id="2_fj7yv"]
+[ext_resource type="AudioStream" uid="uid://dmes64tnj4ic7" path="res://Sounds/calming-rain-257596.mp3" id="2_il2jm"]
 [ext_resource type="PackedScene" uid="uid://db1lrbvdi1p83" path="res://Scenes/road_1_straight.tscn" id="2_tlwt5"]
 [ext_resource type="PackedScene" uid="uid://3ilp0dpck8yx" path="res://Scenes/road_1_corner.tscn" id="4_aqk2v"]
 [ext_resource type="PackedScene" uid="uid://yua7r2bb8nhp" path="res://Scenes/road_1_tjunction.tscn" id="5_gbfbk"]
@@ -21,6 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://cwtb4ybj216ut" path="res://World Assets/Misc/trashbag_1.fbx" id="19_bc84e"]
 [ext_resource type="PackedScene" uid="uid://b3717gnty8n5w" path="res://World Assets/Misc/trashpile_1.fbx" id="20_wukud"]
 [ext_resource type="PackedScene" uid="uid://cajlv3i7djrtk" path="res://World Assets/Misc/trashpile_2.fbx" id="21_il2jm"]
+[ext_resource type="AudioStream" uid="uid://jow8xqqbn8ck" path="res://Sounds/car-engine-noise-321224.mp3" id="22_wukud"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_036b0"]
 panorama = ExtResource("2_aqk2v")
@@ -66,6 +68,15 @@ omni_range = 56.379
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_pkg7o")
+
+[node name="Rain_Sound" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.85198, 0, 0)
+stream = ExtResource("2_il2jm")
+volume_db = -20.0
+unit_size = 500.0
+autoplay = true
+
+[node name="Background_Music" type="AudioStreamPlayer" parent="."]
 
 [node name="Static_World" type="Node3D" parent="."]
 
@@ -1253,6 +1264,7 @@ stretch = true
 
 [node name="SubViewport" type="SubViewport" parent="SplitScreenHolder/SubViewportContainer"]
 handle_input_locally = false
+audio_listener_enable_3d = true
 size = Vector2i(574, 648)
 render_target_update_mode = 4
 
@@ -1281,6 +1293,12 @@ distance_fade_enabled = true
 spot_range = 45.0
 spot_angle = 30.0
 
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="SplitScreenHolder/SubViewportContainer/SubViewport/pc"]
+stream = ExtResource("22_wukud")
+volume_db = -15.0
+unit_size = 20.0
+autoplay = true
+
 [node name="SubViewportContainer2" type="SubViewportContainer" parent="SplitScreenHolder"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -1289,6 +1307,7 @@ stretch = true
 
 [node name="SubViewport" type="SubViewport" parent="SplitScreenHolder/SubViewportContainer2"]
 handle_input_locally = false
+audio_listener_enable_3d = true
 size = Vector2i(574, 648)
 render_target_update_mode = 4
 
@@ -1317,3 +1336,8 @@ light_volumetric_fog_energy = 1.3
 distance_fade_enabled = true
 spot_range = 45.0
 spot_angle = 30.0
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="SplitScreenHolder/SubViewportContainer2/SubViewport/pc2"]
+stream = ExtResource("22_wukud")
+volume_db = -15.0
+autoplay = true

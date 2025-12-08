@@ -1,3 +1,5 @@
+AudioStreamPlayer
+AudioStreamPlayer3D
 Label
 Panel
 MarginContainer
@@ -10,6 +12,3 @@ SubViewportContainer
 GridContainer
 SpotLight3D
 MeshInstance3D
-Node3D
-GPUParticles3D
-GPUParticlesCollisionBox3D
